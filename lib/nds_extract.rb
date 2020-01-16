@@ -36,7 +36,9 @@ def total_gross(source)
   total = 0
   sub_totals = directors_totals(source)
   sub_totals.each do |sub|
+    puts "AA"
     puts sub
+    puts "BB"
     total += sub
   end
   return total
